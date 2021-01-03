@@ -19,7 +19,7 @@ body {
     font-size: 20px;
     padding: 5px 20px;
     font-weight: bold;
-    color: white;
+    color: darkturquoise;
     float: left;
 }
 
@@ -55,7 +55,7 @@ body {
     height: 400px;
     background-color: rgb(34, 10, 10); 
     background-image: url(https://raw.githubusercontent.com/kanjiland/kanjiland.github.io/main/536037_3226964637302_805526504_n.jpg);
-    color:white;
+    
     text-align: center;
 }
 
@@ -68,6 +68,7 @@ body {
     0 5px 0 black,
     -5px 0 0 black,
     0 -5px 0 black;
+    color: darkturquoise;
 }
 
 .title-container p {
@@ -75,4 +76,5 @@ body {
     display: inline-block;
     padding: 0 5px;
     border-radius: 5px;
+    color:white;
 }
