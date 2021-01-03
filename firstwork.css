@@ -1,0 +1,80 @@
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.header {
+    height: 40px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.header-logo {
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: darkturquoise;
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin: 7px 10px 0px 0px;
+
+}
+
+.header-right a {
+    margin: 0px 5px 0px 0px;
+    padding: 0px 5px 0px 0px;
+    color: white;
+    border-radius: 5px;
+}
+
+.youtube {
+    background-color: #DA1725;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    text-decoration: none;
+}
+
+.header span {
+    margin: 5px;
+}
+
+.title-container {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(34, 10, 10); 
+    background-image: url(https://raw.githubusercontent.com/kanjiland/kanjiland.github.io/main/536037_3226964637302_805526504_n.jpg);
+    
+    text-align: center;
+}
+
+.title-logo {
+    padding-top: 40px;
+    font-size: 150px;
+    font-family: serif; 
+    text-shadow:
+    5px 0 0 black,
+    0 5px 0 black,
+    -5px 0 0 black,
+    0 -5px 0 black;
+    color: darkturquoise;
+}
+
+.title-container p {
+    background-color:rgb(34, 10, 10);
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 5px;
+    color:white;
+}
